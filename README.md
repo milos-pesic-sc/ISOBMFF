@@ -44,7 +44,7 @@ To build the aac frame extractor example
 # Create an arbitrary build directory and cd to it.
 mkdir build && cd build
 cmake ..
-cmake --build --target aacExtractor
+cmake --build . --target aacExtractor
 ```
 
 To build the mp4 dump tool example
@@ -52,7 +52,7 @@ To build the mp4 dump tool example
 # Create an arbitrary build directory and cd to it.
 mkdir build && cd build
 cmake ..
-cmake --build --target mp4StreamDump
+cmake --build . --target mp4StreamDump
 ```
 
 Library Usage
